@@ -6,7 +6,7 @@ url = "https://scrape.smartproxy.com/v1/tasks"
 
 payload = {
     "target": "universal",
-    "url": "https://www.reddit.com/r/aww/comments/10vm7bw/that_tail_tuck_at_the_end_is_just_so_precious/",
+    "url": "https://www.reddit.com/r/aww/comments/11xq5ew/yesterday_i_posted_how_i_was_going_to_adopt/",
     "headless": "html",
     "parse": "false"
 }
@@ -43,7 +43,7 @@ def main():
 
     # Select data points
 
-    username = soup.find_all('a', class_='wM6scouPXXsFDSZmZPHRo DjcdNGtVXPcxG0yiFXIoZ _23wugcdiaj44hdfugIAlnX')
+    username = soup.find_all('a', class_='_2tbHP6ZydRpjI44J3syuqC _23wugcdiaj44hdfugIAlnX oQctV4n0yUb0uiHDdGnmE')
 
     post_timestamp = soup.find_all('span', class_='_2VF2J19pUIMSLJFky-7PEI')
 
